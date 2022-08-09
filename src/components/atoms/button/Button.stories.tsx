@@ -13,6 +13,21 @@ export const Primary = Template.bind({});
 
 Primary.args = {
 	children: "Click Me",
+	varient:"primary"
+};
+
+export const Secondary = Template.bind({});
+
+Secondary.args = {
+	children: "Click Me",
+	varient:"secondary"
+};
+
+export const Tertiary = Template.bind({});
+
+Tertiary.args = {
+	children: "Click Me",
+	varient:"tertiary"
 };
 
 export const FunctionButton = Template.bind({});
@@ -27,3 +42,5 @@ LinkedButton.args = {
 	children: "Linked Button",
 	href: "/",
 };
+
+
